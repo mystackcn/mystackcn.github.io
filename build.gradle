@@ -15,6 +15,6 @@ repositories {
 }
 
 asciidoctor {
-    sourceDir file('docs')
-    outputDir file('build/docs')
+    sourceDir file('src')
+    outputDir file('docs')
 }
