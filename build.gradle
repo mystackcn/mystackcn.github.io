@@ -17,4 +17,6 @@ repositories {
 asciidoctor {
     sourceDir file('src')
     outputDir file('docs')
+    attributes noFooter:true
+
 }
